@@ -10,9 +10,14 @@
     <!-- /axios -->
 </head>
 <body>
-    <div id="app"></div>
+    <div id="app">
+        <li v-for="email in email">{{ email }}</li>
+    </div>
     <!-- vue js -->
-    <script src="js/main.js"></script>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <!-- /vue js -->
-</body>
+    <!-- my js -->
+    <script src="js/main.js"></script>
+    <!-- /my js -->
+</body> 
 </html>
