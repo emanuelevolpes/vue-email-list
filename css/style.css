@@ -1,0 +1,81 @@
+/*
+--------
+Reset
+--------
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.fox-logo {
+    display: block;
+}
+
+/*
+--------
+Common
+--------
+*/
+
+[v-cloak] {
+    display: none;
+}
+
+li {
+    list-style: none;
+    margin-bottom: .3125rem;
+}
+
+/*
+--------
+Header
+--------
+*/
+
+.header-container {
+    height: 4.375rem;
+    background-color: steelblue;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem;
+}
+
+#search-box {
+    padding: .3125rem;
+    border-end-end-radius: .3125rem;
+    border-top-right-radius: .3125rem;
+    border: none;
+
+}
+
+.fa-solid.fa-magnifying-glass {
+    padding-top: .25rem;
+    padding-bottom: .375rem;
+    padding-left: .3125rem;
+    padding-right: .3125rem;
+    border-right: .125rem solid lightgray;
+    background-color: white;
+    color: black;
+    border-top-left-radius: .3125rem;
+    border-bottom-left-radius: .3125rem;
+}
+
+
+/*
+--------
+Main
+--------
+*/
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3.125rem;
+}
+
